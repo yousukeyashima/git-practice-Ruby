@@ -1,9 +1,3 @@
-apple = "Yamagate"
-
-if apple == "Nagano"
-	puts "りんごの生産地は長野です"
-elsif apple == "Yamagate"
-	puts "りんごの生産地は山形です"
-else
-	puts "りんごの生産地は青森です"
-end
+puts "キーボードから何か入力してみましょう"
+input_key = gets
+puts "入力された内容は" + input_key
