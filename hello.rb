@@ -1,9 +1,9 @@
-apple = 110
+apple = "Yamagate"
 
-if apple >= 100
-	puts "りんごの値段は100円以上です"
-end
-
-if apple <= 100
-	puts "りんごの値段は100円以下です"
+if apple == "Nagano"
+	puts "りんごの生産地は長野です"
+elsif apple == "Yamagate"
+	puts "りんごの生産地は山形です"
+else
+	puts "りんごの生産地は青森です"
 end
